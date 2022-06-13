@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Helvetica;
+}
+
+.navbar {
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    z-index: 40;
+}
+
+nav a {
+    display: inline-block;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+    background-color: black;
+    font-family: Helvetica;
+    float: right;
+    margin-top: 1rem;
+    margin-inline: 1rem;
+
+}
+
+.logo {
+    padding-left: 10px;
+    height: 50px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+section {
+    background-image: url("/mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    position: inherit;
+    float: center;
+    margin-left: 5%;
+    z-index: -1;
+}
+
+.mission {
+    position: absolute;
+    margin-top: 350px;
+    display: flex;
+    width: 1200px;
+    border: 1px solid rgba(rgba(215, 214, 214, 0.2));
+    height: 120px;
+    color: rgb(209, 209, 209);
+    justify-content: center;
+    
+}
+#miss1  {
+    margin-top: 7px;
+    text-align: center;
+    font-size: 2rem;
+    position:absolute;
+}
+
+#miss2 {
+    margin-top: 55px;
+    text-align: center;
+    font-size: 1.5rem;
+    position:absolute;
+}
+
+article {
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+.tea-month {
+    font-size: 2.5rem;
+}
+
+.tea-month-li {
+    display: inline-block;
+    position: relative;
+}
+
+.tea-li {
+    display: inline-block;
+    position: inherit;
+}
+
+.tea-li img {
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+}
+
+.location {
+    background-image: url("/locations-background.jpg") ;
+    margin-top: 90px;
+    height: 700px;
+    width: 1200px;
+    position: inherit;
+    margin-left: 5%;
+}
+
+.locat-h1 {
+    color: white;
+    background: transparent;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    margin: 1.5rem;
+}
+
+.lo-block {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    position: inherit;
+    margin: 40px;
+    background-color: rgba(rgb(0, 0, 0));
+    opacity: 0.5;
+    justify-content: center;
+    border-radius: 4px;
+    
+}
+
+.lo-block, h1, p {
+    font-size: 1.5rem;
+    line-height: 60px;
+    margin-top: 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 38px;
+}
+
+footer h1 {
+    font-size: 40px;
+}
+
+footer h5 {
+    font-size: 20px;
+}
+.copy {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
